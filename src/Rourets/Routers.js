@@ -32,7 +32,7 @@ const Routers = () =>
         <Router>
         <ToastContainer />
             <Switch>
-                <Route exact path="/" component={Home}></Route>
+                <Route exact path="" component={Home}></Route>
                 <Route exact path="/contact" component={Contact}></Route>
                 <Route exact path="/about" component={About}></Route>
                 <Route exact path="/faq" component={Faq}></Route>
